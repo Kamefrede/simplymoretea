@@ -2,13 +2,11 @@ package com.kamefrede.simplymoretea.core;
 
 import com.kamefrede.simplymoretea.SimplyMoreTea;
 import com.kamefrede.simplymoretea.item.ItemCrumpet;
-import knightminer.simplytea.worldgen.TeaTreeFeature;
+import knightminer.simplytea.item.TooltipItem;
 import net.minecraft.block.Block;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.util.ResourceLocation;
-import net.minecraft.world.gen.feature.Feature;
-import net.minecraft.world.gen.feature.NoFeatureConfig;
 import net.minecraftforge.event.RegistryEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
@@ -21,12 +19,19 @@ import net.minecraftforge.registries.ObjectHolder;
 public class Registration {
 
     public static final Item crumpet = null;
+    public static final Item apple_slices = null;
+    public static final Item apple_brew_bag = null;
 
     @SubscribeEvent
     public static void registerItems(final RegistryEvent.Register<Item> event) {
         IForgeRegistry<Item> registry = event.getRegistry();
 
+        Item.Properties props = new Item.Properties().group(SimplyMoreTeaTab.getInstance()).maxStackSize(64);
+
         register(registry, new ItemCrumpet(), "crumpet");
+        register(registry, new TooltipItem(props), "apple_slices");
+        register(registry, new Item(props), "apple_brew_bag");
+
 
 
     }
