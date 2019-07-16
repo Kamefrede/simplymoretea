@@ -1,6 +1,8 @@
 {
 	"itemGroup.simplymoretea": "Simply More Tea",
 	"item.simplymoretea.crumpet": "Crumpet",
-	"item.simplymoreatea.apple_slices": "Apple Slices",
-	"item.simplymoretea.apple_brew_bag": "Apple Infusion Bag"
+	"item.simplymoretea.ice_cubes": "Ice Cubes",
+	"item.simplymoretea.ice_cubes.tooltip": "Chilly!",
+	"item.simplymoretea.apple_brew_bag": "Apple Infusion Bag",
+	"item.simplymoretea.cup_tea_apple": "Cup of Apple Tea"
 }
