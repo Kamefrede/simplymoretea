@@ -20,13 +20,13 @@ Simply more Tea!
 [[dependencies.simplymoretea]]
     modId="forge"
     mandatory=true
-    versionRange="[27,)" 
+    versionRange="[28,)" 
     ordering="NONE"
     side="BOTH"
 [[dependencies.simplymoretea]]
     modId="minecraft"
     mandatory=true
-    versionRange="[1.14.3]"
+    versionRange="[1.14.4]"
     ordering="NONE"
     side="BOTH"
 [[dependencies.simplymoretea]]

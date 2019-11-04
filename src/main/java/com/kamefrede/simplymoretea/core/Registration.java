@@ -46,13 +46,13 @@ public class Registration {
         register(registry, new ItemCrumpet(), "crumpet");
         register(registry, new TooltipItem(props), "ice_cubes");
         register(registry, new Item(props), "apple_brew_bag");
-        register(registry, new TeaCupItem(makeTea(4, 0.3F, new EffectInstance(knightminer.simplytea.core.Registration.HackRegistryOrder.restful, 1200, 1)).containerItem(cup)), (String) "cup_tea_apple");
-        register(registry, new TeaCupItem(makeTea(4, 0.3F, new EffectInstance(knightminer.simplytea.core.Registration.HackRegistryOrder.restful, 1200, 1)).containerItem(cup)), (String) "cup_chilled_tea_apple");
-        register(registry, new IcedTeaItem(makeTea(4, 0.8F, new EffectInstance(knightminer.simplytea.core.Registration.HackRegistryOrder.caffeinated, 6000, 1)).containerItem(cup)), (String) "cup_chiled_tea_black");
-        register(registry, new IcedTeaItem(makeTea(3, 0.5F, new EffectInstance(knightminer.simplytea.core.Registration.HackRegistryOrder.caffeinated, 6000, 1)).containerItem(cup)), (String) "cup_chilled_tea_green");
-        register(registry, new IcedTeaItem(makeTea(2, 0.5F, new EffectInstance(knightminer.simplytea.core.Registration.HackRegistryOrder.restful, 800, 1)).containerItem(cup)), (String) "cup_chilled_tea_floral");
-        register(registry, new IcedTeaItem(makeTea(5, 0.6F, new EffectInstance(knightminer.simplytea.core.Registration.HackRegistryOrder.caffeinated, 6000, 2)).containerItem(cup)), (String) "cup_chilled_tea_chai");
-        register(registry, new IcedTeaItem(makeTea(3, 0.8F, new EffectInstance(knightminer.simplytea.core.Registration.HackRegistryOrder.enderfalling, 6000)).containerItem(cup)), (String) "cup_chilled_tea_chorus");
+        register(registry, new TeaCupItem(makeTea(4, 0.3F, new EffectInstance(knightminer.simplytea.core.Registration.restful, 1200, 1)).containerItem(cup)), (String) "cup_tea_apple");
+        register(registry, new TeaCupItem(makeTea(4, 0.3F, new EffectInstance(knightminer.simplytea.core.Registration.restful, 1200, 1)).containerItem(cup)), (String) "cup_chilled_tea_apple");
+        register(registry, new IcedTeaItem(makeTea(4, 0.8F, new EffectInstance(knightminer.simplytea.core.Registration.caffeinated, 6000, 1)).containerItem(cup)), (String) "cup_chiled_tea_black");
+        register(registry, new IcedTeaItem(makeTea(3, 0.5F, new EffectInstance(knightminer.simplytea.core.Registration.caffeinated, 6000, 1)).containerItem(cup)), (String) "cup_chilled_tea_green");
+        register(registry, new IcedTeaItem(makeTea(2, 0.5F, new EffectInstance(knightminer.simplytea.core.Registration.restful, 800, 1)).containerItem(cup)), (String) "cup_chilled_tea_floral");
+        register(registry, new IcedTeaItem(makeTea(5, 0.6F, new EffectInstance(knightminer.simplytea.core.Registration.caffeinated, 6000, 2)).containerItem(cup)), (String) "cup_chilled_tea_chai");
+        register(registry, new IcedTeaItem(makeTea(3, 0.8F, new EffectInstance(knightminer.simplytea.core.Registration.enderfalling, 6000)).containerItem(cup)), (String) "cup_chilled_tea_chorus");
 
     }
 
